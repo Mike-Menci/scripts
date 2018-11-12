@@ -1,0 +1,5 @@
+setAccessibility(true);
+try {
+	machine.getDriver().sendCommand("$X",1000);
+} catch(Exception e) {;}
+	gui.setStatus("Driver Reset");
